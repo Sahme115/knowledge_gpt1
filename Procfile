@@ -1,1 +1,1 @@
-web: gunicorn app:app --timeout 30
+web: sh setup.sh && cd knowledge_gpt && streamlit run main.py
